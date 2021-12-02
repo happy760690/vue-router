@@ -1,5 +1,6 @@
 <template>
   <div class="hello">
+    <!-- {{this.$slots.default[0].text}} -->
     <h1>{{ msg }}</h1>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>

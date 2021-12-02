@@ -1,5 +1,6 @@
 <template>
     <div id="app">
+        <!-- <HelloWorld>马明娟</HelloWorld> -->
         <div class="header">
             <!--这里可以理解为从后台数据库中配置的菜单地址，无需注册-->
             <button @click="$lv.push('/student/student',{name:'hello world'})">打开学生页面</button>
